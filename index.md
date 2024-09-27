@@ -1,3 +1,3 @@
 ## INDICE
 
-[ut02](uto2/index.md)
+[ut02](ut02/index.md)
