@@ -13,4 +13,4 @@ UT04 Lenguaje de programación Python
 
 [PR0404: Ejercicios con diccionarios](pr0404/index.md)
 
-[PR0405: Ejercicios de programacion funcional](pr0405/EjerciciosFuncional.ipynb)
+[PR0405: Ejercicios de programacion funcional](pr0405/EjerciciosFuncional.md)
