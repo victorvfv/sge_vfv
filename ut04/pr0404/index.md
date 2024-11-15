@@ -134,12 +134,13 @@ while True:
     else:
         print("Opción no válida.")
 
-´´´Python 
+``` 
 
 ## 5.- Diccionario invertido
 Escribe una función que tome un diccionario y devuelva otro con las claves y valores intercambiados (lo que antes eran valores ahora son claves, y viceversa).
 
-´´´Python
+
+```python 
 
 def invertir(param1):
     param1= {valor: clave for clave, valor in param1.items()}
