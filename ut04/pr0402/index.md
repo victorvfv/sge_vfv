@@ -2,7 +2,7 @@
 ## 1. Contar vocales y consonantes
 Escribe una función que reciba una cadena y cuente cuántas vocales y consonantes contiene.
 
-´´´Python 
+```python 
 
 def contadorVocalesYConsonates(param1):
     v=param1.count("a")
@@ -16,12 +16,12 @@ def contadorVocalesYConsonates(param1):
     print("Hay "+ str(c) +" consonantes y hay " + str(v) + " Vocales") 
 n=contadorVocalesYConsonates("hola hola")
 
-´´´Python 
+```
 
 ## 2. Invertir una cadena
 Crea un programa que invierta una cadena.
 
-´´´Python 
+```python  
 
 def invertir(param1):
     n=param1.split(" ")
@@ -31,12 +31,12 @@ def invertir(param1):
 
 invertir(input())
 
-´´´Python 
+``` 
 
 ## 3. Verificar palíndromo
 Escribe un programa que verifique si una cadena es un palíndromo (se lee igual de izquierda a derecha y de derecha a izquierda).
 
-´´´Python 
+```python 
 
 def palindromo(param1):
     c=len(param1)
@@ -53,12 +53,12 @@ def palindromo(param1):
 
 palindromo("ana")
 
-´´´Python 
+``` 
 
 ## 4. Contar palabras
 Crea una función que cuente cuántas palabras hay en una cadena, suponiendo que las palabras están separadas por espacios.
 
-´´´Python 
+```python  
 
 def contador(param1):
     
@@ -71,12 +71,12 @@ def contador(param1):
 
 contador("hola caracola tonta")
 
-´´´Python 
+```
 
 ## 5. Eliminar caracteres repetidos
 Escribe una función que elimine los caracteres duplicados en una cadena, manteniendo solo la primera aparición de cada uno.
 
-´´´Python 
+```python 
 
 def removeChar(param1):
     list=[]
@@ -100,16 +100,16 @@ def removeChar(param1):
 removeChar(input())
 
 
-´´´Python 
+``` 
 
 ## 6. Mayúsculas y minúsculas
 Escribe un programa que convierta las letras minúsculas de una cadena en mayúsculas y viceversa.
 
-´´´Python 
+```python 
 
 def mayusminus(param1):
     print(param1.swapcase())
 
 mayusminus(input())
 
-´´´Python 
+```

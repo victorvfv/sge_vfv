@@ -3,7 +3,7 @@
 ## Lectura de un número válido
 Crea un programa que solicite un número por pantalla al usuario y siga pidiéndolo hasta que el usuario introduzca un número válido.
 
-´´´Python 
+```python 
 
 import random
 
@@ -17,12 +17,12 @@ def numeroValido():
 
 numeroValido()
 
-´´´Python 
+```
 
 ## Tabla de multiplicar
 Crea un programa que solicite un número n y un valor k y que muestre por la terminal los primeros k elementos de la tabla de multiplicar de n.
 
-´´´Python 
+```python 
 
 print("Dime el tamaño de la base: ")
 k=input()
@@ -32,14 +32,14 @@ for num in range(1,k+1):
    
     print("*"*num)
 
-´´´Python 
+```
 
 ## Triángulo de asteriscos
 Crea un programa que solicite un número al usuario y dibuje un triángulo con asteriscos cuya base sea el número introducido.
 
 Ejemplo: si el número introducido es 5 el resultado será:
 
-´´´Python 
+```python 
 
 print("Dime el tamaño de la base: ")
 k=input()
@@ -49,14 +49,14 @@ for num in range(1,k+1):
    
     print("*"*num)
 
-´´´Python 
+```
 
 ##  Pirámide de asteriscos
 Modifica el programa anterior para que en lugar de crear un triángulo cree una pirámide. Si el usuario introduce un número par se lo volverá a pedir hasta que introduzca un número par.
 
 Ejemplo: si el número introducido es 9 el resultado será:
 
-´´´Python
+```python 
 
 k=int(input(("Dime el tamaño de la base(tiene que ser inpar): ")))
 t=True
@@ -71,12 +71,12 @@ for i in range(1,k+1,2):
     espacios=(k-i)//2
     print(" " * espacios + "*" * i)
 
-´´´Python
+```
 
 ##  Número mayor y menor
 Crea un programa que pida al usuario que introduzca 5 números y luego le diga cuál es el mayor y el menor de todos ellos de la forma: El número mayor es "mayor" y el menor es "menor"
 
-´´´Python
+```python 
 
 i=int(0)
 
@@ -94,14 +94,14 @@ while(i<5):
    
 print("El número mayor es "+str(mayor) + " y el menor es " + str(menor))
 
-´´´Python
+```
 
 ## Acierta el número
 Crea un programa que genere un número aleatorio entre 0 y 100 y el usuario tenga que adivinarlo. Cada vez que el usuario introduzca un número el programa le dirá si el número es más alto o más bajo.
 
 Para generar un número aleatorio puedes utilizar la función randint(a, b) que devuelve un entero aleatorio entre a y b. Para poder utilizar esta función antes tienes que importar la librería con la orden from random import *
 
-´´´Python
+```python 
 
 from random import *
 
@@ -120,12 +120,12 @@ while(t):
         print("el numero es mas pequeño")
         print("vuelve a intentarlo")
 
-´´´Python
+```
 
 ## Piedra, papel o tijeras
 Crea un programa que implemente el clásico juego de piedra, papel, tijeras, lagarto y spock.
 
-´´´Python
+```python 
 
 from random import *
 
@@ -257,12 +257,12 @@ else:
     print("ganaste")
     
 
-´´´Python
+```
 
 ## Secuencia de Fibonacci
 Crea un programa que genere los primeros n números de la secuencia de Fibonacci. Recuerda que la secuencia de Fibonacci es:
 
-´´´Python
+```python 
 
 def generar_fibonacci(n):
     secuencia = [1, 1]
@@ -277,4 +277,4 @@ def generar_fibonacci(n):
 n = 200  
 print(generar_fibonacci(n))
 
-´´´Python
+```

@@ -3,7 +3,7 @@
 ## 1.- Buscar valor en un diccionario
 Crea un diccionario de frutas y precios. Permite al usuario ingresar el nombre de una fruta y muestra su precio si existe en el diccionario, o un mensaje de que no está disponible en caso contrario.
 
-´´´Python 
+```python  
 
 frutas = {
     "manzana": 1.20,
@@ -17,12 +17,12 @@ frutaBuscada = input("Ingrese el nombre de una fruta: ").lower()
 
 print(f"El precio de "+ frutaBuscada + " es " + str(frutas.get(frutaBuscada,"no esta")) )
 
-´´´Python 
+``` 
 
 ## 2.- Contar elementos en un diccionario
 Suponiendo un diccionario con al siguiente estructura, crea un programa que calcule cuántas categorías hay, cuántos productos tiene cada categoría y cuántos productos hay en total.
 
-´´´Python 
+```python 
 
 productos = {
     "Electrónica": ["Smartphone", "Laptop", "Tablet", "Auriculares", "Smartwatch"],
@@ -43,12 +43,12 @@ for categoria, items in productos.items():
 
 print(f"En total hay " + str(totalProductos) + " productos.")
 
-´´´Python 
+```
 
 ## 3.- Contador de frecuencias de palabras
 Escribe un programa que tome una frase y use un diccionario para contar la frecuencia de cada palabra.
 
-´´´Python 
+```python 
 
 frase = input("Ingrese una frase: ")
 palabras = frase.split()
@@ -67,7 +67,7 @@ for palabra, frecuencia in frecuenciaPalabras.items():
     print("La palabra " + palabra + " aparece " + str(frecuencia) + " veces.")
 
 
-´´´Python 
+```  
 
 ## 4.- Diccionario de listas
 Supón un diccionario donde cada clave es una asignatura y el valor correspondiente una lista de estudiantes matriculados, tal como se muestra en el diccionario de ejemplo. Crea un programa que tenga un menú con tres opciones:
@@ -76,7 +76,7 @@ Listar estudiantes matriculados en una asignatura
 Matricular un estudiante en una asignatura
 Dar de baja un estudiante de una asignatura.
 
-´´´Python 
+```python 
 
 asignaturas = {
     "Matemáticas": ["Ana", "Carlos", "Luis", "María", "Jorge"],
@@ -149,12 +149,12 @@ def invertir(param1):
 
 invertir({"a": 1, "b": 2, "c": 3})
 
-´´´Python
+```
 
 ## 6.- Combinar dos diccionarios
 Escribe un programa que tome dos diccionarios de productos y precios, y combine los productos comunes sumando sus precios, sin duplicar los elementos únicos.
 
-´´´Python
+```python 
 
 def combinarDiccionarios(param1, param2):
     combinado = param1  
@@ -170,4 +170,4 @@ def combinarDiccionarios(param1, param2):
 
 combinarDiccionarios({"manzana": 1.20, "banana": 0.50, "pera": 1.50}, {"banana": 0.30, "pera": 1.20, "naranja": 0.80})
 
-´´´Python
+```
