@@ -1,6 +1,6 @@
 ## Primer Proyecto
 
-``` Python
+``` python
 #importo datetime para el manejo de las fechas limite e inicio el diccionario de tareas
 from datetime import datetime
 listaTareas={}
