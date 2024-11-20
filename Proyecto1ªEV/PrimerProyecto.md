@@ -23,7 +23,7 @@ def añadirTarea(nombre,num,fecha,fin):
 def PrintTareas():
     for key in listaTareas:
         tarea = getTarea(key)
-        print(type(lista[2]))
+        ##print(type(lista[2]))
         salida= darFormato(tarea[0],tarea[1] ,tarea[2],tarea[3])
         print(salida)
         print("")
